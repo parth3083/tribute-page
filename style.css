@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Noto+Sans:wght@500&family=Oswald:wght@200&family=Poppins:wght@300&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    font-family: 'Cinzel', serif;
+}
+#section1{
+    width: 100%;
+    background-color: #03C988;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    width: 50vw;
+height: 100%;
+}
+#heading{
+    width: 100%;
+    height: 10vh;
+}
+#heading h1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 4vw;
+    color: #00337C;
+}
+#links{
+    margin-top: -0.25vw;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+#links h4{
+    color: #00337C;
+}
+#links a{
+    text-decoration: none;
+    color: #00337C;
+}
+#tribute{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player{
+    width: 35vw;
+    height: 28vh;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#player video{
+    width: 100%;
+    height: 100%;
+}
+#section2{
+    width: 100%;
+    height: 45vh;
+    background-color: #00337C;
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left h1{
+    text-align: center;
+    color: #03C988;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    border: 1px solid white;
+}
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#section3{
+    width: 100%;
+    /* height: 45vh; */
+    background-color: #03C988;
+    padding: 0px 100px;
+}
+#section3 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4vw;
+    color: #00337C;
+    text-transform: uppercase;
+}
+#section3 p{
+    padding-top: 10px;
+    color: #00337C;
+    font-size: 1.25vw;
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 800;
+}
